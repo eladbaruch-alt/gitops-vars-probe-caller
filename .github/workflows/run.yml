@@ -1,0 +1,5 @@
+name: run
+on: [workflow_dispatch]
+jobs:
+  call:
+    uses: eladbaruch-alt/gitops-vars-probe-called/.github/workflows/probe.yml@main
